@@ -14,6 +14,7 @@
 		81D9C89E1DCC7B2F0066BBD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D9C89C1DCC7B2F0066BBD1 /* LaunchScreen.storyboard */; };
 		81D9C8A81DCC7B630066BBD1 /* WaterflowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D9C8A61DCC7B630066BBD1 /* WaterflowView.swift */; };
 		81D9C8A91DCC7B630066BBD1 /* WaterflowViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D9C8A71DCC7B630066BBD1 /* WaterflowViewCell.swift */; };
+		81D9C8AC1DCC984D0066BBD1 /* displayImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D9C8AB1DCC984D0066BBD1 /* displayImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		81D9C89F1DCC7B2F0066BBD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81D9C8A61DCC7B630066BBD1 /* WaterflowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterflowView.swift; sourceTree = "<group>"; };
 		81D9C8A71DCC7B630066BBD1 /* WaterflowViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterflowViewCell.swift; sourceTree = "<group>"; };
+		81D9C8AB1DCC984D0066BBD1 /* displayImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = displayImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		81D9C8921DCC7B2F0066BBD1 /* waterflow */ = {
 			isa = PBXGroup;
 			children = (
+				81D9C8AA1DCC98200066BBD1 /* Resource */,
 				81D9C8A51DCC7B630066BBD1 /* Waterflow */,
 				81D9C8931DCC7B2F0066BBD1 /* AppDelegate.swift */,
 				81D9C8951DCC7B2F0066BBD1 /* ViewController.swift */,
@@ -76,6 +79,14 @@
 				81D9C8A71DCC7B630066BBD1 /* WaterflowViewCell.swift */,
 			);
 			path = Waterflow;
+			sourceTree = "<group>";
+		};
+		81D9C8AA1DCC98200066BBD1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				81D9C8AB1DCC984D0066BBD1 /* displayImage.png */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81D9C8AC1DCC984D0066BBD1 /* displayImage.png in Resources */,
 				81D9C89E1DCC7B2F0066BBD1 /* LaunchScreen.storyboard in Resources */,
 				81D9C89B1DCC7B2F0066BBD1 /* Assets.xcassets in Resources */,
 				81D9C8991DCC7B2F0066BBD1 /* Main.storyboard in Resources */,
